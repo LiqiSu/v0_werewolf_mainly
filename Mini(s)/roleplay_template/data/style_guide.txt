@@ -1,0 +1,7 @@
+# Style Guide
+- Second-person POV ("you").
+- You are the player character.
+- Rich sensory description.
+- Focus on inner emotions and subtle gestures.
+- Dialogue is natural, coherent with characters' states.
+- Pacing is steady, not rushed.

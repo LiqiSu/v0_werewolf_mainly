@@ -1,0 +1,37 @@
+{
+  "characters": {
+    "玩家": {
+      "appearance": "...",
+      "clothing": "...",
+      "personality": "...",
+      "goals": "...",
+      "physical_state": "...",
+      "mental_state": "...",
+      "location": "...",
+      "activity": "...",
+      "recent_events": []
+    },
+    "新角色名": {
+      "appearance": "...",
+      "clothing": "...",
+      "personality": "...",
+      "goals": "...",
+      "physical_state": "...",
+      "mental_state": "...",
+      "location": "...",
+      "activity": "...",
+      "recent_events": []
+    }
+    "新角色名": {
+      "appearance": "...",
+      "clothing": "...",
+      "personality": "...",
+      "goals": "...",
+      "physical_state": "...",
+      "mental_state": "...",
+      "location": "...",
+      "activity": "...",
+      "recent_events": []
+    }
+  }
+}

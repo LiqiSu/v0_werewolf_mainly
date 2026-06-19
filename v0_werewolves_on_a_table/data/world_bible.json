@@ -1,0 +1,13 @@
+{
+  "setting": "A fully abstract social deduction game taking place around a single table. No physical movement or environmental complexity exists.",
+  "rules": {
+    "Werewolves_Table": {
+      "description": "Setup: 7 players. Roles: 2 werewolves, 3 villagers, 1 seer, 1 witch. One fixed role each.\nTeams: Werewolves vs Village (all others)\n\n- Only werewolves know teammates.\n- EVERYONE MAY LIE; EVERYONE CAN LIE.\n\nWin:\n- Wolves: all Village dead.\n- Village: all Wolves dead.\n- All dead = tie.\n\nLoop:\nNight: Seer -> Werewolves -> Witch.\nWerewolves: private discuss then vote 1 night kill target; can choose no_kill or self-kill; tie=no_kill.\nSeer: inspect 1 player nightly; learns team only.\nWitch: 2 potions in the entire game; 1 save potion cancels 1 wolf kill (witch can KNOW wolf's target if still have save potion), 1 poison kills 1 player.\nNight deaths resolve (no deaths last night may imply witch saved).\n(wolf may self-kill or no_kill BUT EXTREMELY RARE)\nDay: announce dead names only -> 2 public discussion rounds -> vote.\nDiscussion: speech is IN TURN, no speech yet (quiet)=NOT THEIR TURN YET.\nVote: most votes eliminated; tie=NO elimination.\nWerewolf may reveal in day: self dies, day ends, no vote.\n\nDead players cannot speak, act, or be targeted.",
+      "severity": 100
+    }
+  },
+  "factions": {},
+  "cultures": {},
+  "important_places": {},
+  "important_events": {}
+}

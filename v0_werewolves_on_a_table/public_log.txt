@@ -1,0 +1,98 @@
+[21:33:40] 
+------INITIALIZATION FINISHED------
+
+[21:33:43] 
+========== ROUND 1 ==========
+
+[21:34:25] Morning Announcement: No one died last night.
+
+[21:34:29] SA: ['wait for others|NONE']
+
+[21:34:38] GA: ['oppose SA|wait is suspicious']
+
+[21:34:47] VA: ['oppose SA|wait is suspicious']
+
+[21:34:51] YA: ['roleclaim self witch|NONE', 'suspect SA|oppose SA, calling wait suspicious']
+
+[21:34:56] AA: ['roleclaim self villager|NONE', 'suspect SA|multiple opponents flagged wait suspicious']
+
+[21:35:01] PA: ['roleclaim self seer|inspected AA village', 'defend AA|seer inspected AA, village', 'suspect SA|others flagged wait, no role claim']
+
+[21:35:06] MA: ['suspect SA|multiple players flagged wait suspicious', 'defend PA|seer inspected AA, village']
+
+[21:35:10] SA: ['defend PA|seer inspected AA, village', 'oppose YA|witch claim unclear']
+
+[21:35:19] GA: ['oppose SA|multiple suspicions', 'defend PA|seer inspected AA, village']
+
+[21:35:28] VA: ['oppose SA|multiple suspicions', 'defend PA|seer inspected AA, village']
+
+[21:35:33] YA: ['defend PA|saved from wolf kill', 'suspect SA|multiple players flagged', 'roleclaim self witch|NONE']
+
+[21:35:38] AA: ['suspect SA|multiple players flagged SA', 'defend PA|seer inspected AA, village']
+
+[21:35:43] PA: ['accuse SA|multiple players flagged', 'trust AA|seer inspected AA, village']
+
+[21:35:49] MA: ['suspect SA|multiple accusations from players', 'wait|NONE']
+
+[21:35:53] SA voted to eliminate SA
+
+[21:35:57] GA voted to eliminate SA
+
+[21:36:02] VA voted to eliminate SA
+
+[21:36:07] YA voted to eliminate SA
+
+[21:36:13] AA voted to eliminate SA
+
+[21:36:18] PA voted to eliminate SA
+
+[21:36:23] MA voted to eliminate SA
+
+[21:36:23] 
+Lynch Decision
+{'SA': 7}
+SA
+
+[21:36:29] 
+========== ROUND 2 ==========
+
+[21:37:24] Morning Announcement: The following players died last night: YA.
+
+[21:37:33] GA: ['oppose AA|NONE']
+
+[21:37:42] VA: ['oppose AA|GA opposed AA']
+
+[21:37:47] MA: ['suspect GA|GA opposed AA twice, no role claim']
+
+[21:37:54] PA: ['defend AA|inspected AA, village', 'suspect GA|opposed AA twice, no role claim', 'roleclaim self seer|NONE']
+
+[21:37:59] AA: ['suspect GA|opposed AA twice, no role claim', 'trust PA|claimed seer inspected AA, village']
+
+[21:38:08] GA: ['suspect PA|claimed seer, unclear actions', 'oppose PA|potential threat to team']
+
+[21:38:17] VA: ['suspect PA|seer claim unclear', 'oppose PA|potential threat', 'defend GA|attacked multiple times']
+
+[21:38:22] MA: ['suspect PA|multiple opponents, vague seer claim']
+
+[21:38:27] PA: ['roleclaim self seer|inspected AA & YA, both village', 'defend AA|night1 inspection, village', 'suspect GA|no inspection evidence, possible wolf']
+
+[21:38:32] AA: ['suspect GA|MA also suspects, GA opposes AA', 'suspect PA|claimed seer, no proof']
+
+[21:38:37] GA voted to eliminate PA
+
+[21:38:41] VA voted to eliminate MA
+
+[21:38:48] MA voted to eliminate GA
+
+[21:38:55] PA voted to eliminate GA
+
+[21:39:18] AA voted to eliminate GA
+
+[21:39:18] 
+Lynch Decision
+{'PA': 1, 'MA': 1, 'GA': 3}
+GA
+
+[21:39:31] 
+========== ROUND 3 ==========
+

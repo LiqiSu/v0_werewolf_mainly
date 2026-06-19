@@ -1,0 +1,5928 @@
+{
+  "characters": {
+    "AA": {
+      "name": "AA",
+      "gender": "male",
+      "age_apparent": 21,
+      "age_actual": 24,
+      "species": "human",
+      "aging_rate": 1.0,
+      "is_immortal": false,
+      "nicknames": {},
+      "role": {},
+      "background": {},
+      "memory": {
+        "recent": {
+          "round_2_day_vote": [
+            {
+              "memory_owner": "AA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "MA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "AA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "PA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "AA",
+              "source_type": "self",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "AA",
+                "action": "voted to eliminate GA",
+                "internal_reasoning": []
+              },
+              "metadata": {
+                "impact": 100,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "AA",
+              "source_type": "heard",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "announcement",
+                "announcement": "votes: {'PA': 1, 'MA': 1, 'GA': 3}",
+                "result": "death_by_elimination: GA"
+              },
+              "metadata": {
+                "impact": 100,
+                "confidence": 100
+              }
+            }
+          ]
+        },
+        "mid": {
+          "announcement": {
+            "day_1": [
+              "no_deaths_last_night",
+              "death_by_elimination: SA"
+            ],
+            "day_2": [
+              "last_night_deaths: YA"
+            ]
+          },
+          "SA": {
+            "day_1": [
+              {
+                "speech": [
+                  "wait for others",
+                  "defend PA",
+                  "oppose YA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "GA": {
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "oppose AA",
+                  "suspect PA",
+                  "oppose PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate PA"
+              }
+            ]
+          },
+          "VA": {
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "oppose AA",
+                  "suspect PA",
+                  "oppose PA",
+                  "defend GA"
+                ]
+              },
+              {
+                "action": "voted to eliminate MA"
+              }
+            ]
+          },
+          "YA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self witch",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "self": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self villager",
+                  "suspect SA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "suspect SA",
+                  "defend PA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted to eliminate SA",
+                "internal_reasoning": []
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "suspect GA",
+                  "trust PA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "suspect GA",
+                  "suspect PA"
+                ],
+                "internal_reasoning": []
+              }
+            ]
+          },
+          "PA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self seer",
+                  "defend AA",
+                  "suspect SA",
+                  "accuse SA",
+                  "trust AA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "defend AA",
+                  "suspect GA",
+                  "roleclaim self seer"
+                ]
+              }
+            ]
+          },
+          "MA": {
+            "day_1": [
+              {
+                "speech": [
+                  "suspect SA",
+                  "defend PA",
+                  "wait"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "suspect GA",
+                  "suspect PA"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "characters": {
+          "GA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 19,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks soft, gentle and young",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          },
+          "MA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very composed, steady, sharp and precise",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "PA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks moderate and comforting; good-looking",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "SA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks classy, elegant and refined",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          },
+          "VA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very charismatic, fetching, elegent and persuasive",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "YA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 23,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks firm, influential, handsome and proud",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          }
+        },
+        "world": {
+          "setting": {
+            "table": {
+              "description": "A fully abstract social deduction game taking place around a single table. No physical movement or environmental complexity exists.",
+              "confidence": 100
+            }
+          },
+          "rules": {
+            "Werewolves_Table": {
+              "description": "same as the scene rules",
+              "confidence": 100
+            }
+          },
+          "factions": {},
+          "cultures": {},
+          "places": {},
+          "events": {}
+        },
+        "scene": {
+          "location": {
+            "name": "table",
+            "description": "A large round table where all players gather for Werewolves Table game.",
+            "confidence": 100
+          },
+          "time": {},
+          "environment": {
+            "table": {
+              "description": "All players are seated around a large round table, clearly seeing and hearing each other. The entire game takes place at this table with no movement or spatial separation.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "objects": {},
+          "rules": {
+            "Werewolves_Table": {
+              "description": "Setup: 7 players. Roles: 2 werewolves, 3 villagers, 1 seer, 1 witch. One fixed role each.\nTeams: Werewolves vs Village (all others)\n\n- Only werewolves know teammates.\n- EVERYONE MAY LIE; EVERYONE CAN LIE.\n\nWin:\n- Wolves: all Village dead.\n- Village: all Wolves dead.\n- All dead = tie.\n\nLoop:\nNight: Seer -> Werewolves -> Witch.\nWerewolves: private discuss then vote 1 night kill target; can choose no_kill or self-kill; tie=no_kill.\nSeer: inspect 1 player nightly; learns team only.\nWitch: 2 potions in the entire game; 1 save potion cancels 1 wolf kill (witch can KNOW wolf's target if still have save potion), 1 poison kills 1 player.\nNight deaths resolve (no deaths last night may imply witch saved).\n(wolf may self-kill or no_kill BUT EXTREMELY RARE)\nDay: announce dead names only -> 2 public discussion rounds -> vote.\nDiscussion: speech is IN TURN, no speech yet (quiet)=NOT THEIR TURN YET.\nVote: most votes eliminated; tie=NO elimination.\nWerewolf may reveal in day: self dies, day ends, no vote.\n\nDead players cannot speak, act, or be targeted.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "dynamics": {
+            "danger_level": 0,
+            "tension": 0
+          },
+          "characters_present": {
+            "AA": {
+              "focus": 100
+            },
+            "GA": {
+              "focus": 100
+            },
+            "MA": {
+              "focus": 100
+            },
+            "PA": {
+              "focus": 100
+            },
+            "SA": {
+              "focus": 100
+            },
+            "VA": {
+              "focus": 100
+            },
+            "YA": {
+              "focus": 100
+            }
+          },
+          "conflicts": {},
+          "events": {}
+        },
+        "hard_knowledge": {}
+      },
+      "access": {},
+      "goals": {
+        "win_the_game": {
+          "description": "win the game for their team",
+          "value": 100
+        }
+      },
+      "properties": {},
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and influence others",
+          "value": 80
+        },
+        "analytical_thinking": {
+          "description": "Ability to evaluate information and make logical decisions",
+          "value": 60
+        },
+        "emotional_expression": {
+          "description": "Willingness to show emotions and empathize with others",
+          "value": 70
+        },
+        "risk_tolerance": {
+          "description": "Readiness to take bold actions and face uncertainty",
+          "value": 80
+        }
+      },
+      "abilities": {},
+      "interests": {},
+      "dislikes": {},
+      "habits": {},
+      "appearance": {
+        "general": {
+          "description": "blond with bright blue eyes; looks energetic, positive and empowering",
+          "value": 80
+        }
+      },
+      "physical_state": {},
+      "mental_state": {
+        "calmness": {
+          "description": "clarity of thought",
+          "value": 70
+        }
+      },
+      "ongoing_processes": {
+        "playing_the_game": {
+          "description": "playing the game and aiming to win",
+          "value": 100
+        }
+      },
+      "faction_affiliations": {},
+      "possessions": {},
+      "relationships": {},
+      "clothing": "",
+      "location": "table",
+      "activity": "sitting at the table",
+      "game_status": {
+        "role": "villager",
+        "team": "village",
+        "ability": {},
+        "is_dead": false,
+        "current_round": 2
+      },
+      "llm_model": "openai/gpt-oss-120b"
+    },
+    "GA": {
+      "name": "GA",
+      "gender": "male",
+      "age_apparent": 19,
+      "age_actual": 22,
+      "species": "human",
+      "aging_rate": 1.0,
+      "is_immortal": false,
+      "nicknames": {},
+      "role": {},
+      "background": {},
+      "memory": {
+        "recent": {
+          "round_2_day_vote": [
+            {
+              "memory_owner": "GA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "VA",
+                "action": "voted to eliminate MA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "GA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "MA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "GA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "PA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "GA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "AA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            }
+          ]
+        },
+        "mid": {
+          "announcement": {
+            "night_1": [
+              "wolfkill_target: PA"
+            ],
+            "day_1": [
+              "no_deaths_last_night",
+              "death_by_elimination: SA"
+            ],
+            "night_2": [
+              "wolfkill_target: YA"
+            ],
+            "day_2": [
+              "last_night_deaths: YA"
+            ]
+          },
+          "VA": {
+            "night_1": [
+              {
+                "speech": [
+                  "target PA"
+                ]
+              },
+              {
+                "action": "voted for PA as the target to kill tonight"
+              }
+            ],
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "night_2": [
+              {
+                "speech": [
+                  "target YA"
+                ]
+              },
+              {
+                "action": "voted for YA as the target to kill tonight"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "oppose AA",
+                  "suspect PA",
+                  "oppose PA",
+                  "defend GA"
+                ]
+              }
+            ]
+          },
+          "self": {
+            "night_1": [
+              {
+                "speech": [
+                  "target PA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted for PA as the target to kill tonight",
+                "internal_reasoning": []
+              }
+            ],
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted to eliminate SA",
+                "internal_reasoning": []
+              }
+            ],
+            "night_2": [
+              {
+                "speech": [
+                  "target YA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "target YA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted for YA as the target to kill tonight",
+                "internal_reasoning": []
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "oppose AA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "suspect PA",
+                  "oppose PA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted to eliminate PA",
+                "internal_reasoning": []
+              }
+            ]
+          },
+          "SA": {
+            "day_1": [
+              {
+                "speech": [
+                  "wait for others",
+                  "defend PA",
+                  "oppose YA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "YA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self witch",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "AA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self villager",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "suspect GA",
+                  "trust PA",
+                  "suspect PA"
+                ]
+              }
+            ]
+          },
+          "PA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self seer",
+                  "defend AA",
+                  "suspect SA",
+                  "accuse SA",
+                  "trust AA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "defend AA",
+                  "suspect GA",
+                  "roleclaim self seer"
+                ]
+              }
+            ]
+          },
+          "MA": {
+            "day_1": [
+              {
+                "speech": [
+                  "suspect SA",
+                  "defend PA",
+                  "wait"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "suspect GA",
+                  "suspect PA"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "characters": {
+          "AA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 21,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "blond with bright blue eyes; looks energetic, positive and empowering",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "MA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very composed, steady, sharp and precise",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "PA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks moderate and comforting; good-looking",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "SA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks classy, elegant and refined",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          },
+          "VA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very charismatic, fetching, elegent and persuasive",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "werewolf",
+                "confidence": 100
+              },
+              "team": {
+                "value": "werewolf",
+                "confidence": 100
+              },
+              "ability": {
+                "value": "kill_at_night",
+                "confidence": 100
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "YA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 23,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks firm, influential, handsome and proud",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          }
+        },
+        "world": {
+          "setting": {
+            "table": {
+              "description": "A fully abstract social deduction game taking place around a single table. No physical movement or environmental complexity exists.",
+              "confidence": 100
+            }
+          },
+          "rules": {
+            "Werewolves_Table": {
+              "description": "same as the scene rules",
+              "confidence": 100
+            }
+          },
+          "factions": {},
+          "cultures": {},
+          "places": {},
+          "events": {}
+        },
+        "scene": {
+          "location": {
+            "name": "table",
+            "description": "A large round table where all players gather for Werewolves Table game.",
+            "confidence": 100
+          },
+          "time": {},
+          "environment": {
+            "table": {
+              "description": "All players are seated around a large round table, clearly seeing and hearing each other. The entire game takes place at this table with no movement or spatial separation.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "objects": {},
+          "rules": {
+            "Werewolves_Table": {
+              "description": "Setup: 7 players. Roles: 2 werewolves, 3 villagers, 1 seer, 1 witch. One fixed role each.\nTeams: Werewolves vs Village (all others)\n\n- Only werewolves know teammates.\n- EVERYONE MAY LIE; EVERYONE CAN LIE.\n\nWin:\n- Wolves: all Village dead.\n- Village: all Wolves dead.\n- All dead = tie.\n\nLoop:\nNight: Seer -> Werewolves -> Witch.\nWerewolves: private discuss then vote 1 night kill target; can choose no_kill or self-kill; tie=no_kill.\nSeer: inspect 1 player nightly; learns team only.\nWitch: 2 potions in the entire game; 1 save potion cancels 1 wolf kill (witch can KNOW wolf's target if still have save potion), 1 poison kills 1 player.\nNight deaths resolve (no deaths last night may imply witch saved).\n(wolf may self-kill or no_kill BUT EXTREMELY RARE)\nDay: announce dead names only -> 2 public discussion rounds -> vote.\nDiscussion: speech is IN TURN, no speech yet (quiet)=NOT THEIR TURN YET.\nVote: most votes eliminated; tie=NO elimination.\nWerewolf may reveal in day: self dies, day ends, no vote.\n\nDead players cannot speak, act, or be targeted.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "dynamics": {
+            "danger_level": 0,
+            "tension": 0
+          },
+          "characters_present": {
+            "AA": {
+              "focus": 100
+            },
+            "GA": {
+              "focus": 100
+            },
+            "MA": {
+              "focus": 100
+            },
+            "PA": {
+              "focus": 100
+            },
+            "SA": {
+              "focus": 100
+            },
+            "VA": {
+              "focus": 100
+            },
+            "YA": {
+              "focus": 100
+            }
+          },
+          "conflicts": {},
+          "events": {}
+        },
+        "hard_knowledge": {}
+      },
+      "access": {},
+      "goals": {
+        "win_the_game": {
+          "description": "win the game for their team",
+          "value": 100
+        }
+      },
+      "properties": {},
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and influence others",
+          "value": 40
+        },
+        "emotional_intelligence": {
+          "description": "Ability to understand and manage emotions in self and others",
+          "value": 70
+        },
+        "risk_tolerance": {
+          "description": "Willingness to take bold actions and accept uncertainty",
+          "value": 40
+        },
+        "analytical_thinking": {
+          "description": "Ability to evaluate information and make logical decisions",
+          "value": 60
+        }
+      },
+      "abilities": {},
+      "interests": {},
+      "dislikes": {},
+      "habits": {},
+      "appearance": {
+        "general": {
+          "description": "looks soft, gentle and young",
+          "value": 70
+        }
+      },
+      "physical_state": {},
+      "mental_state": {
+        "calmness": {
+          "description": "clarity of thought",
+          "value": 70
+        }
+      },
+      "ongoing_processes": {
+        "playing_the_game": {
+          "description": "playing the game and aiming to win",
+          "value": 100
+        }
+      },
+      "faction_affiliations": {},
+      "possessions": {},
+      "relationships": {},
+      "clothing": "",
+      "location": "table",
+      "activity": "sitting at the table",
+      "game_status": {
+        "role": "werewolf",
+        "team": "werewolf",
+        "ability": {
+          "kill_at_night": true
+        },
+        "is_dead": true,
+        "current_round": 2
+      },
+      "llm_model": "llama-3.3-70b-versatile"
+    },
+    "MA": {
+      "name": "MA",
+      "gender": "male",
+      "age_apparent": 24,
+      "age_actual": 26,
+      "species": "human",
+      "aging_rate": 1.0,
+      "is_immortal": false,
+      "nicknames": {},
+      "role": {},
+      "background": {},
+      "memory": {
+        "recent": {
+          "round_2_day_vote": [
+            {
+              "memory_owner": "MA",
+              "source_type": "self",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "MA",
+                "action": "voted to eliminate GA",
+                "internal_reasoning": []
+              },
+              "metadata": {
+                "impact": 100,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "MA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "PA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "MA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "AA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "MA",
+              "source_type": "heard",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "announcement",
+                "announcement": "votes: {'PA': 1, 'MA': 1, 'GA': 3}",
+                "result": "death_by_elimination: GA"
+              },
+              "metadata": {
+                "impact": 100,
+                "confidence": 100
+              }
+            }
+          ]
+        },
+        "mid": {
+          "announcement": {
+            "day_1": [
+              "no_deaths_last_night",
+              "death_by_elimination: SA"
+            ],
+            "day_2": [
+              "last_night_deaths: YA"
+            ]
+          },
+          "SA": {
+            "day_1": [
+              {
+                "speech": [
+                  "wait for others",
+                  "defend PA",
+                  "oppose YA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "GA": {
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "oppose AA",
+                  "suspect PA",
+                  "oppose PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate PA"
+              }
+            ]
+          },
+          "VA": {
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "oppose AA",
+                  "suspect PA",
+                  "oppose PA",
+                  "defend GA"
+                ]
+              },
+              {
+                "action": "voted to eliminate MA"
+              }
+            ]
+          },
+          "YA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self witch",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "AA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self villager",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "suspect GA",
+                  "trust PA",
+                  "suspect PA"
+                ]
+              }
+            ]
+          },
+          "PA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self seer",
+                  "defend AA",
+                  "suspect SA",
+                  "accuse SA",
+                  "trust AA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "defend AA",
+                  "suspect GA",
+                  "roleclaim self seer"
+                ]
+              }
+            ]
+          },
+          "self": {
+            "day_1": [
+              {
+                "speech": [
+                  "suspect SA",
+                  "defend PA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "suspect SA",
+                  "wait"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted to eliminate SA",
+                "internal_reasoning": []
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "suspect GA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "suspect PA"
+                ],
+                "internal_reasoning": []
+              }
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "characters": {
+          "AA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 21,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "blond with bright blue eyes; looks energetic, positive and empowering",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "GA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 19,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks soft, gentle and young",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          },
+          "PA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks moderate and comforting; good-looking",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "SA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks classy, elegant and refined",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          },
+          "VA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very charismatic, fetching, elegent and persuasive",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "YA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 23,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks firm, influential, handsome and proud",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          }
+        },
+        "world": {
+          "setting": {
+            "table": {
+              "description": "A fully abstract social deduction game taking place around a single table. No physical movement or environmental complexity exists.",
+              "confidence": 100
+            }
+          },
+          "rules": {
+            "Werewolves_Table": {
+              "description": "same as the scene rules",
+              "confidence": 100
+            }
+          },
+          "factions": {},
+          "cultures": {},
+          "places": {},
+          "events": {}
+        },
+        "scene": {
+          "location": {
+            "name": "table",
+            "description": "A large round table where all players gather for Werewolves Table game.",
+            "confidence": 100
+          },
+          "time": {},
+          "environment": {
+            "table": {
+              "description": "All players are seated around a large round table, clearly seeing and hearing each other. The entire game takes place at this table with no movement or spatial separation.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "objects": {},
+          "rules": {
+            "Werewolves_Table": {
+              "description": "Setup: 7 players. Roles: 2 werewolves, 3 villagers, 1 seer, 1 witch. One fixed role each.\nTeams: Werewolves vs Village (all others)\n\n- Only werewolves know teammates.\n- EVERYONE MAY LIE; EVERYONE CAN LIE.\n\nWin:\n- Wolves: all Village dead.\n- Village: all Wolves dead.\n- All dead = tie.\n\nLoop:\nNight: Seer -> Werewolves -> Witch.\nWerewolves: private discuss then vote 1 night kill target; can choose no_kill or self-kill; tie=no_kill.\nSeer: inspect 1 player nightly; learns team only.\nWitch: 2 potions in the entire game; 1 save potion cancels 1 wolf kill (witch can KNOW wolf's target if still have save potion), 1 poison kills 1 player.\nNight deaths resolve (no deaths last night may imply witch saved).\n(wolf may self-kill or no_kill BUT EXTREMELY RARE)\nDay: announce dead names only -> 2 public discussion rounds -> vote.\nDiscussion: speech is IN TURN, no speech yet (quiet)=NOT THEIR TURN YET.\nVote: most votes eliminated; tie=NO elimination.\nWerewolf may reveal in day: self dies, day ends, no vote.\n\nDead players cannot speak, act, or be targeted.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "dynamics": {
+            "danger_level": 0,
+            "tension": 0
+          },
+          "characters_present": {
+            "AA": {
+              "focus": 100
+            },
+            "GA": {
+              "focus": 100
+            },
+            "MA": {
+              "focus": 100
+            },
+            "PA": {
+              "focus": 100
+            },
+            "SA": {
+              "focus": 100
+            },
+            "VA": {
+              "focus": 100
+            },
+            "YA": {
+              "focus": 100
+            }
+          },
+          "conflicts": {},
+          "events": {}
+        },
+        "hard_knowledge": {}
+      },
+      "access": {},
+      "goals": {
+        "win_the_game": {
+          "description": "win the game for their team",
+          "value": 100
+        }
+      },
+      "properties": {},
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and dominate discussions",
+          "value": 80
+        },
+        "emotional_stability": {
+          "description": "Ability to remain calm under pressure and provocative comments",
+          "value": 70
+        },
+        "analytical_thinking": {
+          "description": "Ability to analyze information and make logical decisions",
+          "value": 90
+        },
+        "risk_tolerance": {
+          "description": "Readiness to take bold actions and make unconventional decisions",
+          "value": 70
+        }
+      },
+      "abilities": {},
+      "interests": {},
+      "dislikes": {},
+      "habits": {},
+      "appearance": {
+        "general": {
+          "description": "looks very composed, steady, sharp and precise",
+          "value": 80
+        }
+      },
+      "physical_state": {},
+      "mental_state": {
+        "calmness": {
+          "description": "clarity of thought",
+          "value": 70
+        }
+      },
+      "ongoing_processes": {
+        "playing_the_game": {
+          "description": "playing the game and aiming to win",
+          "value": 100
+        }
+      },
+      "faction_affiliations": {},
+      "possessions": {},
+      "relationships": {},
+      "clothing": "",
+      "location": "table",
+      "activity": "sitting at the table",
+      "game_status": {
+        "role": "villager",
+        "team": "village",
+        "ability": {},
+        "is_dead": false,
+        "current_round": 2
+      },
+      "llm_model": "openai/gpt-oss-120b"
+    },
+    "PA": {
+      "name": "PA",
+      "gender": "male",
+      "age_apparent": 24,
+      "age_actual": 26,
+      "species": "human",
+      "aging_rate": 1.0,
+      "is_immortal": false,
+      "nicknames": {},
+      "role": {},
+      "background": {},
+      "memory": {
+        "recent": {
+          "round_2_day_vote": [
+            {
+              "memory_owner": "PA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "MA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "PA",
+              "source_type": "self",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "PA",
+                "action": "voted to eliminate GA",
+                "internal_reasoning": []
+              },
+              "metadata": {
+                "impact": 100,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "PA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "AA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "PA",
+              "source_type": "heard",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "announcement",
+                "announcement": "votes: {'PA': 1, 'MA': 1, 'GA': 3}",
+                "result": "death_by_elimination: GA"
+              },
+              "metadata": {
+                "impact": 100,
+                "confidence": 100
+              }
+            }
+          ]
+        },
+        "mid": {
+          "announcement": {
+            "day_1": [
+              "no_deaths_last_night",
+              "death_by_elimination: SA"
+            ],
+            "day_2": [
+              "last_night_deaths: YA"
+            ]
+          },
+          "self": {
+            "night_1": [
+              {
+                "action": "inspected AA; result: village",
+                "internal_reasoning": []
+              }
+            ],
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self seer",
+                  "defend AA",
+                  "suspect SA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "accuse SA",
+                  "trust AA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted to eliminate SA",
+                "internal_reasoning": []
+              }
+            ],
+            "night_2": [
+              {
+                "action": "inspected YA; result: village",
+                "internal_reasoning": []
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "defend AA",
+                  "suspect GA",
+                  "roleclaim self seer"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "roleclaim self seer",
+                  "defend AA",
+                  "suspect GA"
+                ],
+                "internal_reasoning": []
+              }
+            ]
+          },
+          "SA": {
+            "day_1": [
+              {
+                "speech": [
+                  "wait for others",
+                  "defend PA",
+                  "oppose YA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "GA": {
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "oppose AA",
+                  "suspect PA",
+                  "oppose PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate PA"
+              }
+            ]
+          },
+          "VA": {
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "oppose AA",
+                  "suspect PA",
+                  "oppose PA",
+                  "defend GA"
+                ]
+              },
+              {
+                "action": "voted to eliminate MA"
+              }
+            ]
+          },
+          "YA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self witch",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "AA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self villager",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "suspect GA",
+                  "trust PA",
+                  "suspect PA"
+                ]
+              }
+            ]
+          },
+          "MA": {
+            "day_1": [
+              {
+                "speech": [
+                  "suspect SA",
+                  "defend PA",
+                  "wait"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "suspect GA",
+                  "suspect PA"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "characters": {
+          "AA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 21,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "blond with bright blue eyes; looks energetic, positive and empowering",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "village",
+                "confidence": 100
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "GA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 19,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks soft, gentle and young",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          },
+          "MA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very composed, steady, sharp and precise",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "SA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks classy, elegant and refined",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          },
+          "VA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very charismatic, fetching, elegent and persuasive",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "YA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 23,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks firm, influential, handsome and proud",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "village",
+                "confidence": 100
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          }
+        },
+        "world": {
+          "setting": {
+            "table": {
+              "description": "A fully abstract social deduction game taking place around a single table. No physical movement or environmental complexity exists.",
+              "confidence": 100
+            }
+          },
+          "rules": {
+            "Werewolves_Table": {
+              "description": "same as the scene rules",
+              "confidence": 100
+            }
+          },
+          "factions": {},
+          "cultures": {},
+          "places": {},
+          "events": {}
+        },
+        "scene": {
+          "location": {
+            "name": "table",
+            "description": "A large round table where all players gather for Werewolves Table game.",
+            "confidence": 100
+          },
+          "time": {},
+          "environment": {
+            "table": {
+              "description": "All players are seated around a large round table, clearly seeing and hearing each other. The entire game takes place at this table with no movement or spatial separation.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "objects": {},
+          "rules": {
+            "Werewolves_Table": {
+              "description": "Setup: 7 players. Roles: 2 werewolves, 3 villagers, 1 seer, 1 witch. One fixed role each.\nTeams: Werewolves vs Village (all others)\n\n- Only werewolves know teammates.\n- EVERYONE MAY LIE; EVERYONE CAN LIE.\n\nWin:\n- Wolves: all Village dead.\n- Village: all Wolves dead.\n- All dead = tie.\n\nLoop:\nNight: Seer -> Werewolves -> Witch.\nWerewolves: private discuss then vote 1 night kill target; can choose no_kill or self-kill; tie=no_kill.\nSeer: inspect 1 player nightly; learns team only.\nWitch: 2 potions in the entire game; 1 save potion cancels 1 wolf kill (witch can KNOW wolf's target if still have save potion), 1 poison kills 1 player.\nNight deaths resolve (no deaths last night may imply witch saved).\n(wolf may self-kill or no_kill BUT EXTREMELY RARE)\nDay: announce dead names only -> 2 public discussion rounds -> vote.\nDiscussion: speech is IN TURN, no speech yet (quiet)=NOT THEIR TURN YET.\nVote: most votes eliminated; tie=NO elimination.\nWerewolf may reveal in day: self dies, day ends, no vote.\n\nDead players cannot speak, act, or be targeted.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "dynamics": {
+            "danger_level": 0,
+            "tension": 0
+          },
+          "characters_present": {
+            "AA": {
+              "focus": 100
+            },
+            "GA": {
+              "focus": 100
+            },
+            "MA": {
+              "focus": 100
+            },
+            "PA": {
+              "focus": 100
+            },
+            "SA": {
+              "focus": 100
+            },
+            "VA": {
+              "focus": 100
+            },
+            "YA": {
+              "focus": 100
+            }
+          },
+          "conflicts": {},
+          "events": {}
+        },
+        "hard_knowledge": {}
+      },
+      "access": {},
+      "goals": {
+        "win_the_game": {
+          "description": "win the game for their team",
+          "value": 100
+        }
+      },
+      "properties": {},
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and influence others",
+          "value": 70
+        },
+        "emotional_control": {
+          "description": "Ability to manage emotions during discussions",
+          "value": 80
+        },
+        "risk_taking": {
+          "description": "Tendency to take bold actions and make risky decisions",
+          "value": 40
+        },
+        "analytical_thinking": {
+          "description": "Ability to analyze information and make logical decisions",
+          "value": 90
+        }
+      },
+      "abilities": {},
+      "interests": {},
+      "dislikes": {},
+      "habits": {},
+      "appearance": {
+        "general": {
+          "description": "looks moderate and comforting; good-looking",
+          "value": 80
+        }
+      },
+      "physical_state": {},
+      "mental_state": {
+        "calmness": {
+          "description": "clarity of thought",
+          "value": 70
+        }
+      },
+      "ongoing_processes": {
+        "playing_the_game": {
+          "description": "playing the game and aiming to win",
+          "value": 100
+        }
+      },
+      "faction_affiliations": {},
+      "possessions": {},
+      "relationships": {},
+      "clothing": "",
+      "location": "table",
+      "activity": "sitting at the table",
+      "game_status": {
+        "role": "seer",
+        "team": "village",
+        "ability": {
+          "inspect_at_night": true
+        },
+        "is_dead": false,
+        "current_round": 2
+      },
+      "llm_model": "openai/gpt-oss-120b"
+    },
+    "SA": {
+      "name": "SA",
+      "gender": "male",
+      "age_apparent": 24,
+      "age_actual": 26,
+      "species": "human",
+      "aging_rate": 1.0,
+      "is_immortal": false,
+      "nicknames": {},
+      "role": {},
+      "background": {},
+      "memory": {
+        "recent": {
+          "round_1_day_vote": [
+            {
+              "memory_owner": "SA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "YA",
+                "action": "voted to eliminate SA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "SA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "AA",
+                "action": "voted to eliminate SA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "SA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "PA",
+                "action": "voted to eliminate SA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "SA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "MA",
+                "action": "voted to eliminate SA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            }
+          ]
+        },
+        "mid": {
+          "announcement": {
+            "day_1": [
+              "no_deaths_last_night"
+            ]
+          },
+          "self": {
+            "day_1": [
+              {
+                "speech": [
+                  "wait for others"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "defend PA",
+                  "oppose YA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted to eliminate SA",
+                "internal_reasoning": []
+              }
+            ]
+          },
+          "GA": {
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "VA": {
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "YA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self witch",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              }
+            ]
+          },
+          "AA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self villager",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              }
+            ]
+          },
+          "PA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self seer",
+                  "defend AA",
+                  "suspect SA",
+                  "accuse SA",
+                  "trust AA"
+                ]
+              }
+            ]
+          },
+          "MA": {
+            "day_1": [
+              {
+                "speech": [
+                  "suspect SA",
+                  "defend PA",
+                  "wait"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "characters": {
+          "AA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 21,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "blond with bright blue eyes; looks energetic, positive and empowering",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "GA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 19,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks soft, gentle and young",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "MA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very composed, steady, sharp and precise",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "PA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks moderate and comforting; good-looking",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "VA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very charismatic, fetching, elegent and persuasive",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "YA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 23,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks firm, influential, handsome and proud",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          }
+        },
+        "world": {
+          "setting": {
+            "table": {
+              "description": "A fully abstract social deduction game taking place around a single table. No physical movement or environmental complexity exists.",
+              "confidence": 100
+            }
+          },
+          "rules": {
+            "Werewolves_Table": {
+              "description": "same as the scene rules",
+              "confidence": 100
+            }
+          },
+          "factions": {},
+          "cultures": {},
+          "places": {},
+          "events": {}
+        },
+        "scene": {
+          "location": {
+            "name": "table",
+            "description": "A large round table where all players gather for Werewolves Table game.",
+            "confidence": 100
+          },
+          "time": {},
+          "environment": {
+            "table": {
+              "description": "All players are seated around a large round table, clearly seeing and hearing each other. The entire game takes place at this table with no movement or spatial separation.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "objects": {},
+          "rules": {
+            "Werewolves_Table": {
+              "description": "Setup: 7 players. Roles: 2 werewolves, 3 villagers, 1 seer, 1 witch. One fixed role each.\nTeams: Werewolves vs Village (all others)\n\n- Only werewolves know teammates.\n- EVERYONE MAY LIE; EVERYONE CAN LIE.\n\nWin:\n- Wolves: all Village dead.\n- Village: all Wolves dead.\n- All dead = tie.\n\nLoop:\nNight: Seer -> Werewolves -> Witch.\nWerewolves: private discuss then vote 1 night kill target; can choose no_kill or self-kill; tie=no_kill.\nSeer: inspect 1 player nightly; learns team only.\nWitch: 2 potions in the entire game; 1 save potion cancels 1 wolf kill (witch can KNOW wolf's target if still have save potion), 1 poison kills 1 player.\nNight deaths resolve (no deaths last night may imply witch saved).\n(wolf may self-kill or no_kill BUT EXTREMELY RARE)\nDay: announce dead names only -> 2 public discussion rounds -> vote.\nDiscussion: speech is IN TURN, no speech yet (quiet)=NOT THEIR TURN YET.\nVote: most votes eliminated; tie=NO elimination.\nWerewolf may reveal in day: self dies, day ends, no vote.\n\nDead players cannot speak, act, or be targeted.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "dynamics": {
+            "danger_level": 0,
+            "tension": 0
+          },
+          "characters_present": {
+            "AA": {
+              "focus": 100
+            },
+            "GA": {
+              "focus": 100
+            },
+            "MA": {
+              "focus": 100
+            },
+            "PA": {
+              "focus": 100
+            },
+            "SA": {
+              "focus": 100
+            },
+            "VA": {
+              "focus": 100
+            },
+            "YA": {
+              "focus": 100
+            }
+          },
+          "conflicts": {},
+          "events": {}
+        },
+        "hard_knowledge": {}
+      },
+      "access": {},
+      "goals": {
+        "win_the_game": {
+          "description": "win the game for their team",
+          "value": 100
+        }
+      },
+      "properties": {},
+      "personality": {
+        "assertiveness": {
+          "description": "Likelihood to express opinions and dominate discussions",
+          "value": 70
+        },
+        "emotional_control": {
+          "description": "Ability to manage emotions and remain calm under pressure",
+          "value": 60
+        },
+        "analytical_thinking": {
+          "description": "Tendency to evaluate information logically and make informed decisions",
+          "value": 70
+        },
+        "risk_tolerance": {
+          "description": "Willingness to take bold actions and accept uncertainty",
+          "value": 60
+        }
+      },
+      "abilities": {},
+      "interests": {},
+      "dislikes": {},
+      "habits": {},
+      "appearance": {
+        "general": {
+          "description": "looks classy, elegant and refined",
+          "value": 80
+        }
+      },
+      "physical_state": {},
+      "mental_state": {
+        "calmness": {
+          "description": "clarity of thought",
+          "value": 70
+        }
+      },
+      "ongoing_processes": {
+        "playing_the_game": {
+          "description": "playing the game and aiming to win",
+          "value": 100
+        }
+      },
+      "faction_affiliations": {},
+      "possessions": {},
+      "relationships": {},
+      "clothing": "",
+      "location": "table",
+      "activity": "sitting at the table",
+      "game_status": {
+        "role": "villager",
+        "team": "village",
+        "ability": {},
+        "is_dead": true,
+        "current_round": 1
+      },
+      "llm_model": "llama-3.3-70b-versatile"
+    },
+    "VA": {
+      "name": "VA",
+      "gender": "male",
+      "age_apparent": 24,
+      "age_actual": 26,
+      "species": "human",
+      "aging_rate": 1.0,
+      "is_immortal": false,
+      "nicknames": {},
+      "role": {},
+      "background": {},
+      "memory": {
+        "recent": {
+          "round_2_day_vote": [
+            {
+              "memory_owner": "VA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "MA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "VA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "PA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "VA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "AA",
+                "action": "voted to eliminate GA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "VA",
+              "source_type": "heard",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "announcement",
+                "announcement": "votes: {'PA': 1, 'MA': 1, 'GA': 3}",
+                "result": "death_by_elimination: GA"
+              },
+              "metadata": {
+                "impact": 100,
+                "confidence": 100
+              }
+            }
+          ]
+        },
+        "mid": {
+          "announcement": {
+            "night_1": [
+              "wolfkill_target: PA"
+            ],
+            "day_1": [
+              "no_deaths_last_night",
+              "death_by_elimination: SA"
+            ],
+            "night_2": [
+              "wolfkill_target: YA"
+            ],
+            "day_2": [
+              "last_night_deaths: YA"
+            ]
+          },
+          "self": {
+            "night_1": [
+              {
+                "speech": [
+                  "target PA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted for PA as the target to kill tonight",
+                "internal_reasoning": []
+              }
+            ],
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted to eliminate SA",
+                "internal_reasoning": []
+              }
+            ],
+            "night_2": [
+              {
+                "speech": [
+                  "target YA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "target YA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted for YA as the target to kill tonight",
+                "internal_reasoning": []
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "oppose AA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "suspect PA",
+                  "oppose PA",
+                  "defend GA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted to eliminate MA",
+                "internal_reasoning": []
+              }
+            ]
+          },
+          "GA": {
+            "night_1": [
+              {
+                "speech": [
+                  "target PA"
+                ]
+              },
+              {
+                "action": "voted for PA as the target to kill tonight"
+              }
+            ],
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "night_2": [
+              {
+                "speech": [
+                  "target YA"
+                ]
+              },
+              {
+                "action": "voted for YA as the target to kill tonight"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "oppose AA",
+                  "suspect PA",
+                  "oppose PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate PA"
+              }
+            ]
+          },
+          "SA": {
+            "day_1": [
+              {
+                "speech": [
+                  "wait for others",
+                  "defend PA",
+                  "oppose YA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "YA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self witch",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "AA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self villager",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "suspect GA",
+                  "trust PA",
+                  "suspect PA"
+                ]
+              }
+            ]
+          },
+          "PA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self seer",
+                  "defend AA",
+                  "suspect SA",
+                  "accuse SA",
+                  "trust AA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "defend AA",
+                  "suspect GA",
+                  "roleclaim self seer"
+                ]
+              }
+            ]
+          },
+          "MA": {
+            "day_1": [
+              {
+                "speech": [
+                  "suspect SA",
+                  "defend PA",
+                  "wait"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ],
+            "day_2": [
+              {
+                "speech": [
+                  "suspect GA",
+                  "suspect PA"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "characters": {
+          "AA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 21,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "blond with bright blue eyes; looks energetic, positive and empowering",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "GA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 19,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks soft, gentle and young",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "werewolf",
+                "confidence": 100
+              },
+              "team": {
+                "value": "werewolf",
+                "confidence": 100
+              },
+              "ability": {
+                "value": "kill_at_night",
+                "confidence": 100
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          },
+          "MA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very composed, steady, sharp and precise",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "PA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks moderate and comforting; good-looking",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "SA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks classy, elegant and refined",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          },
+          "YA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 23,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks firm, influential, handsome and proud",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          }
+        },
+        "world": {
+          "setting": {
+            "table": {
+              "description": "A fully abstract social deduction game taking place around a single table. No physical movement or environmental complexity exists.",
+              "confidence": 100
+            }
+          },
+          "rules": {
+            "Werewolves_Table": {
+              "description": "same as the scene rules",
+              "confidence": 100
+            }
+          },
+          "factions": {},
+          "cultures": {},
+          "places": {},
+          "events": {}
+        },
+        "scene": {
+          "location": {
+            "name": "table",
+            "description": "A large round table where all players gather for Werewolves Table game.",
+            "confidence": 100
+          },
+          "time": {},
+          "environment": {
+            "table": {
+              "description": "All players are seated around a large round table, clearly seeing and hearing each other. The entire game takes place at this table with no movement or spatial separation.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "objects": {},
+          "rules": {
+            "Werewolves_Table": {
+              "description": "Setup: 7 players. Roles: 2 werewolves, 3 villagers, 1 seer, 1 witch. One fixed role each.\nTeams: Werewolves vs Village (all others)\n\n- Only werewolves know teammates.\n- EVERYONE MAY LIE; EVERYONE CAN LIE.\n\nWin:\n- Wolves: all Village dead.\n- Village: all Wolves dead.\n- All dead = tie.\n\nLoop:\nNight: Seer -> Werewolves -> Witch.\nWerewolves: private discuss then vote 1 night kill target; can choose no_kill or self-kill; tie=no_kill.\nSeer: inspect 1 player nightly; learns team only.\nWitch: 2 potions in the entire game; 1 save potion cancels 1 wolf kill (witch can KNOW wolf's target if still have save potion), 1 poison kills 1 player.\nNight deaths resolve (no deaths last night may imply witch saved).\n(wolf may self-kill or no_kill BUT EXTREMELY RARE)\nDay: announce dead names only -> 2 public discussion rounds -> vote.\nDiscussion: speech is IN TURN, no speech yet (quiet)=NOT THEIR TURN YET.\nVote: most votes eliminated; tie=NO elimination.\nWerewolf may reveal in day: self dies, day ends, no vote.\n\nDead players cannot speak, act, or be targeted.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "dynamics": {
+            "danger_level": 0,
+            "tension": 0
+          },
+          "characters_present": {
+            "AA": {
+              "focus": 100
+            },
+            "GA": {
+              "focus": 100
+            },
+            "MA": {
+              "focus": 100
+            },
+            "PA": {
+              "focus": 100
+            },
+            "SA": {
+              "focus": 100
+            },
+            "VA": {
+              "focus": 100
+            },
+            "YA": {
+              "focus": 100
+            }
+          },
+          "conflicts": {},
+          "events": {}
+        },
+        "hard_knowledge": {}
+      },
+      "access": {},
+      "goals": {
+        "win_the_game": {
+          "description": "win the game for their team",
+          "value": 100
+        }
+      },
+      "properties": {},
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and influence others",
+          "value": 80
+        },
+        "analytical-thinking": {
+          "description": "Ability to evaluate information and make informed decisions",
+          "value": 70
+        },
+        "risk-tolerance": {
+          "description": "Willingness to take bold actions and face uncertainty",
+          "value": 70
+        },
+        "social_charm": {
+          "description": "Ability to build rapport and persuade others",
+          "value": 90
+        }
+      },
+      "abilities": {},
+      "interests": {},
+      "dislikes": {},
+      "habits": {},
+      "appearance": {
+        "general": {
+          "description": "looks very charismatic, fetching, elegent and persuasive",
+          "value": 80
+        }
+      },
+      "physical_state": {},
+      "mental_state": {
+        "calmness": {
+          "description": "clarity of thought",
+          "value": 70
+        }
+      },
+      "ongoing_processes": {
+        "playing_the_game": {
+          "description": "playing the game and aiming to win",
+          "value": 100
+        }
+      },
+      "faction_affiliations": {},
+      "possessions": {},
+      "relationships": {},
+      "clothing": "",
+      "location": "table",
+      "activity": "sitting at the table",
+      "game_status": {
+        "role": "werewolf",
+        "team": "werewolf",
+        "ability": {
+          "kill_at_night": true
+        },
+        "is_dead": false,
+        "current_round": 2
+      },
+      "llm_model": "llama-3.3-70b-versatile"
+    },
+    "YA": {
+      "name": "YA",
+      "gender": "male",
+      "age_apparent": 23,
+      "age_actual": 26,
+      "species": "human",
+      "aging_rate": 1.0,
+      "is_immortal": false,
+      "nicknames": {},
+      "role": {},
+      "background": {},
+      "memory": {
+        "recent": {
+          "round_1_day_vote": [
+            {
+              "memory_owner": "YA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "PA",
+                "action": "voted to eliminate SA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "YA",
+              "source_type": "observed",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "MA",
+                "action": "voted to eliminate SA"
+              },
+              "metadata": {
+                "impact": 90,
+                "confidence": 100
+              }
+            },
+            {
+              "memory_owner": "YA",
+              "source_type": "heard",
+              "phase_step": "day_vote",
+              "content": {
+                "performer": "announcement",
+                "announcement": "votes: {'SA': 7}",
+                "result": "death_by_elimination: SA"
+              },
+              "metadata": {
+                "impact": 100,
+                "confidence": 100
+              }
+            }
+          ],
+          "round_2_night_witch_poison": [
+            {
+              "memory_owner": "YA",
+              "source_type": "self",
+              "phase_step": "night_action_witch_poison",
+              "content": {
+                "performer": "YA",
+                "action": "poisoned: None",
+                "internal_reasoning": []
+              },
+              "metadata": {
+                "impact": 100,
+                "confidence": 100
+              }
+            }
+          ]
+        },
+        "mid": {
+          "announcement": {
+            "day_1": [
+              "no_deaths_last_night"
+            ]
+          },
+          "self": {
+            "night_1": [
+              {
+                "action": "if SAVED PA: yes",
+                "internal_reasoning": []
+              },
+              {
+                "action": "poisoned: None",
+                "internal_reasoning": []
+              }
+            ],
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self witch",
+                  "suspect SA"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "speech": [
+                  "defend PA",
+                  "suspect SA",
+                  "roleclaim self witch"
+                ],
+                "internal_reasoning": []
+              },
+              {
+                "action": "voted to eliminate SA",
+                "internal_reasoning": []
+              }
+            ]
+          },
+          "SA": {
+            "day_1": [
+              {
+                "speech": [
+                  "wait for others",
+                  "defend PA",
+                  "oppose YA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "GA": {
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "VA": {
+            "day_1": [
+              {
+                "speech": [
+                  "oppose SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "AA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self villager",
+                  "suspect SA",
+                  "defend PA"
+                ]
+              },
+              {
+                "action": "voted to eliminate SA"
+              }
+            ]
+          },
+          "PA": {
+            "day_1": [
+              {
+                "speech": [
+                  "roleclaim self seer",
+                  "defend AA",
+                  "suspect SA",
+                  "accuse SA",
+                  "trust AA"
+                ]
+              }
+            ]
+          },
+          "MA": {
+            "day_1": [
+              {
+                "speech": [
+                  "suspect SA",
+                  "defend PA",
+                  "wait"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "characters": {
+          "AA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 21,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "blond with bright blue eyes; looks energetic, positive and empowering",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "GA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 19,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks soft, gentle and young",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "MA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very composed, steady, sharp and precise",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "PA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks moderate and comforting; good-looking",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          },
+          "SA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks classy, elegant and refined",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": true,
+                "confidence": 100
+              }
+            }
+          },
+          "VA": {
+            "basics": {
+              "gender": {
+                "value": "male",
+                "confidence": 100
+              },
+              "age_apparent": {
+                "value": 24,
+                "confidence": 90
+              },
+              "age_actual": {
+                "value": null,
+                "confidence": 0
+              },
+              "species": {
+                "value": null,
+                "confidence": 0
+              },
+              "aging_rate": {
+                "value": null,
+                "confidence": 0
+              },
+              "is_immortal": {
+                "value": null,
+                "confidence": 0
+              },
+              "appearance": {
+                "description": "looks very charismatic, fetching, elegent and persuasive",
+                "confidence": 90
+              }
+            },
+            "role": {},
+            "background": {},
+            "goals": {
+              "win_the_game": {
+                "description": "win the game for their team",
+                "value": 100,
+                "confidence": 100
+              }
+            },
+            "traits": {},
+            "interests": {},
+            "dislikes": {},
+            "relationships": {},
+            "possessions": {},
+            "state": {
+              "location": {
+                "value": "table",
+                "confidence": 100
+              },
+              "activity": {
+                "description": "sitting at the table playing the game",
+                "confidence": 100
+              },
+              "physical": {},
+              "mental": {}
+            },
+            "knowledge_bits": {},
+            "game_status": {
+              "role": {
+                "value": "",
+                "confidence": 0
+              },
+              "team": {
+                "value": "",
+                "confidence": 0
+              },
+              "ability": {
+                "value": {},
+                "confidence": 0
+              },
+              "is_dead": {
+                "value": false,
+                "confidence": 100
+              }
+            }
+          }
+        },
+        "world": {
+          "setting": {
+            "table": {
+              "description": "A fully abstract social deduction game taking place around a single table. No physical movement or environmental complexity exists.",
+              "confidence": 100
+            }
+          },
+          "rules": {
+            "Werewolves_Table": {
+              "description": "same as the scene rules",
+              "confidence": 100
+            }
+          },
+          "factions": {},
+          "cultures": {},
+          "places": {},
+          "events": {}
+        },
+        "scene": {
+          "location": {
+            "name": "table",
+            "description": "A large round table where all players gather for Werewolves Table game.",
+            "confidence": 100
+          },
+          "time": {},
+          "environment": {
+            "table": {
+              "description": "All players are seated around a large round table, clearly seeing and hearing each other. The entire game takes place at this table with no movement or spatial separation.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "objects": {},
+          "rules": {
+            "Werewolves_Table": {
+              "description": "Setup: 7 players. Roles: 2 werewolves, 3 villagers, 1 seer, 1 witch. One fixed role each.\nTeams: Werewolves vs Village (all others)\n\n- Only werewolves know teammates.\n- EVERYONE MAY LIE; EVERYONE CAN LIE.\n\nWin:\n- Wolves: all Village dead.\n- Village: all Wolves dead.\n- All dead = tie.\n\nLoop:\nNight: Seer -> Werewolves -> Witch.\nWerewolves: private discuss then vote 1 night kill target; can choose no_kill or self-kill; tie=no_kill.\nSeer: inspect 1 player nightly; learns team only.\nWitch: 2 potions in the entire game; 1 save potion cancels 1 wolf kill (witch can KNOW wolf's target if still have save potion), 1 poison kills 1 player.\nNight deaths resolve (no deaths last night may imply witch saved).\n(wolf may self-kill or no_kill BUT EXTREMELY RARE)\nDay: announce dead names only -> 2 public discussion rounds -> vote.\nDiscussion: speech is IN TURN, no speech yet (quiet)=NOT THEIR TURN YET.\nVote: most votes eliminated; tie=NO elimination.\nWerewolf may reveal in day: self dies, day ends, no vote.\n\nDead players cannot speak, act, or be targeted.",
+              "severity": 100,
+              "confidence": 100
+            }
+          },
+          "dynamics": {
+            "danger_level": 0,
+            "tension": 0
+          },
+          "characters_present": {
+            "AA": {
+              "focus": 100
+            },
+            "GA": {
+              "focus": 100
+            },
+            "MA": {
+              "focus": 100
+            },
+            "PA": {
+              "focus": 100
+            },
+            "SA": {
+              "focus": 100
+            },
+            "VA": {
+              "focus": 100
+            },
+            "YA": {
+              "focus": 100
+            }
+          },
+          "conflicts": {},
+          "events": {}
+        },
+        "hard_knowledge": {}
+      },
+      "access": {},
+      "goals": {
+        "win_the_game": {
+          "description": "win the game for their team",
+          "value": 100
+        }
+      },
+      "properties": {},
+      "personality": {
+        "assertiveness": {
+          "description": "Willingness to express opinions and influence others",
+          "value": 80
+        },
+        "analytical-thinking": {
+          "description": "Ability to evaluate information and make informed decisions",
+          "value": 70
+        },
+        "risk-tolerance": {
+          "description": "Willingness to take bold actions and face uncertainty",
+          "value": 70
+        },
+        "emotional-intelligence": {
+          "description": "Ability to understand and manage the emotions of self and others",
+          "value": 70
+        }
+      },
+      "abilities": {},
+      "interests": {},
+      "dislikes": {},
+      "habits": {},
+      "appearance": {
+        "general": {
+          "description": "looks firm, influential, handsome and proud",
+          "value": 80
+        }
+      },
+      "physical_state": {},
+      "mental_state": {
+        "calmness": {
+          "description": "clarity of thought",
+          "value": 70
+        }
+      },
+      "ongoing_processes": {
+        "playing_the_game": {
+          "description": "playing the game and aiming to win",
+          "value": 100
+        }
+      },
+      "faction_affiliations": {},
+      "possessions": {},
+      "relationships": {},
+      "clothing": "",
+      "location": "table",
+      "activity": "sitting at the table",
+      "game_status": {
+        "role": "witch",
+        "team": "village",
+        "ability": {
+          "save_potion": 0,
+          "poison_potion": 1
+        },
+        "is_dead": true,
+        "current_round": 2
+      },
+      "llm_model": "openai/gpt-oss-120b"
+    }
+  }
+}

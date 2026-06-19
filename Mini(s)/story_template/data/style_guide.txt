@@ -1,0 +1,6 @@
+# Style Guide
+- Third-person limited POV.
+- Rich sensory description.
+- Focus on inner emotions and subtle gestures.
+- Dialogue is natural, coherent with characters' states.
+- Pacing is steady, not rushed.

@@ -1,0 +1,438 @@
+{
+  "characters": {
+    "AA": {
+      "name": "AA",
+      "gender": "male",
+      "age_apparent": 21,
+      "age_actual": 24,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "blond with bright blue eyes; looks energetic, positive and empowering",
+          "value": 80
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and influence others",
+          "value": 80
+        },
+        "analytical_thinking": {
+          "description": "Ability to evaluate information and make logical decisions",
+          "value": 60
+        },
+        "emotional_expression": {
+          "description": "Willingness to show emotions and empathize with others",
+          "value": 70
+        },
+        "risk_tolerance": {
+          "description": "Readiness to take bold actions and face uncertainty",
+          "value": 80
+        }
+      }
+    },
+    "CX": {
+      "name": "CX",
+      "gender": "male",
+      "age_apparent": 23,
+      "age_actual": 25,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks calm, deep in thought; oddly unsettling and eerily menacing",
+          "value": 70
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "Likelihood to express opinions and influence others",
+          "value": 70
+        },
+        "emotional_intelligence": {
+          "description": "Ability to understand and manage emotions in social interactions",
+          "value": 40
+        },
+        "analytical_thinking": {
+          "description": "Ability to evaluate information logically and critically",
+          "value": 70
+        },
+        "risk_tolerance": {
+          "description": "Willingness to take bold actions and accept uncertain outcomes",
+          "value": 80
+        }
+      }
+    },
+    "DX": {
+      "name": "DX",
+      "gender": "male",
+      "age_apparent": 23,
+      "age_actual": 24,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks gloomy, negative and melancholic",
+          "value": 70
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to speak up and express opinions",
+          "value": 30
+        },
+        "empathy": {
+          "description": "Ability to understand and consider others' perspectives",
+          "value": 40
+        },
+        "risk_tolerance": {
+          "description": "Willingness to take bold actions and make uncertain decisions",
+          "value": 50
+        },
+        "analytical_thinking": {
+          "description": "Ability to evaluate evidence and make logical conclusions",
+          "value": 70
+        }
+      }
+    },
+    "FX": {
+      "name": "FX",
+      "gender": "male",
+      "age_apparent": 21,
+      "age_actual": 20,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks bright, young and brilliant",
+          "value": 80
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "How forcefully they express their opinions",
+          "value": 80
+        },
+        "empathy": {
+          "description": "How well they understand and consider others' feelings",
+          "value": 40
+        },
+        "analytical-thinking": {
+          "description": "How logically they evaluate information and arguments",
+          "value": 90
+        },
+        "risk-tolerance": {
+          "description": "How willing they are to take bold actions and make risky decisions",
+          "value": 80
+        }
+      }
+    },
+    "GA": {
+      "name": "GA",
+      "gender": "male",
+      "age_apparent": 19,
+      "age_actual": 22,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks soft, gentle and young",
+          "value": 70
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and influence others",
+          "value": 40
+        },
+        "emotional_intelligence": {
+          "description": "Ability to understand and manage emotions in self and others",
+          "value": 70
+        },
+        "risk_tolerance": {
+          "description": "Willingness to take bold actions and accept uncertainty",
+          "value": 40
+        },
+        "analytical_thinking": {
+          "description": "Ability to evaluate information and make logical decisions",
+          "value": 60
+        }
+      }
+    },
+    "LX": {
+      "name": "LX",
+      "gender": "male",
+      "age_apparent": 23,
+      "age_actual": 21,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks attractive, charming and a bit flamboyant",
+          "value": 80
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "How forcefully they express their opinions",
+          "value": 70
+        },
+        "empathy": {
+          "description": "How well they understand and relate to others' perspectives",
+          "value": 40
+        },
+        "risk_tolerance": {
+          "description": "How willing they are to take bold actions",
+          "value": 80
+        },
+        "analytical_thinking": {
+          "description": "How logically and methodically they approach problems",
+          "value": 60
+        }
+      }
+    },
+    "MA": {
+      "name": "MA",
+      "gender": "male",
+      "age_apparent": 24,
+      "age_actual": 26,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks very composed, steady, sharp and precise",
+          "value": 80
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and dominate discussions",
+          "value": 80
+        },
+        "emotional_stability": {
+          "description": "Ability to remain calm under pressure and provocative comments",
+          "value": 70
+        },
+        "analytical_thinking": {
+          "description": "Ability to analyze information and make logical decisions",
+          "value": 90
+        },
+        "risk_tolerance": {
+          "description": "Readiness to take bold actions and make unconventional decisions",
+          "value": 70
+        }
+      }
+    },
+    "NX": {
+      "name": "NX",
+      "gender": "male",
+      "age_apparent": 23,
+      "age_actual": 20,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks young but smooth, convincing",
+          "value": 70
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "How forcefully they express their opinions",
+          "value": 60
+        },
+        "empathy": {
+          "description": "How well they understand and consider others' perspectives",
+          "value": 70
+        },
+        "analytical_thinking": {
+          "description": "How much they rely on logic and evidence in decision-making",
+          "value": 70
+        },
+        "risk_tolerance": {
+          "description": "How willing they are to take bold actions and face uncertainty",
+          "value": 60
+        }
+      }
+    },
+    "PA": {
+      "name": "PA",
+      "gender": "male",
+      "age_apparent": 24,
+      "age_actual": 26,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks moderate and comforting; good-looking",
+          "value": 80
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and influence others",
+          "value": 70
+        },
+        "emotional_control": {
+          "description": "Ability to manage emotions during discussions",
+          "value": 80
+        },
+        "risk_taking": {
+          "description": "Tendency to take bold actions and make risky decisions",
+          "value": 40
+        },
+        "analytical_thinking": {
+          "description": "Ability to analyze information and make logical decisions",
+          "value": 90
+        }
+      }
+    },
+    "SA": {
+      "name": "SA",
+      "gender": "male",
+      "age_apparent": 24,
+      "age_actual": 26,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks classy, elegant and refined",
+          "value": 80
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "Likelihood to express opinions and dominate discussions",
+          "value": 70
+        },
+        "emotional_control": {
+          "description": "Ability to manage emotions and remain calm under pressure",
+          "value": 60
+        },
+        "analytical_thinking": {
+          "description": "Tendency to evaluate information logically and make informed decisions",
+          "value": 70
+        },
+        "risk_tolerance": {
+          "description": "Willingness to take bold actions and accept uncertainty",
+          "value": 60
+        }
+      }
+    },
+    "TX": {
+      "name": "TX",
+      "gender": "male",
+      "age_apparent": 23,
+      "age_actual": 21,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks solid, straight, forceful and casual",
+          "value": 80
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "How forcefully they express their opinions",
+          "value": 80
+        },
+        "emotional_intelligence": {
+          "description": "How well they understand and manage emotions in themselves and others",
+          "value": 40
+        },
+        "risk_tolerance": {
+          "description": "How willing they are to take bold actions and make tough decisions",
+          "value": 70
+        },
+        "skeptical-thinking": {
+          "description": "How critically they evaluate information and arguments",
+          "value": 70
+        }
+      }
+    },
+    "VA": {
+      "name": "VA",
+      "gender": "male",
+      "age_apparent": 24,
+      "age_actual": 26,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks very charismatic, fetching, elegent and persuasive",
+          "value": 80
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and influence others",
+          "value": 80
+        },
+        "analytical-thinking": {
+          "description": "Ability to evaluate information and make informed decisions",
+          "value": 70
+        },
+        "risk-tolerance": {
+          "description": "Willingness to take bold actions and face uncertainty",
+          "value": 70
+        },
+        "social_charm": {
+          "description": "Ability to build rapport and persuade others",
+          "value": 90
+        }
+      }
+    },
+    "WX": {
+      "name": "WX",
+      "gender": "male",
+      "age_apparent": 19,
+      "age_actual": 19,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks cold, calculating; very young, very good-looking",
+          "value": 80
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "Tendency to express opinions and influence others",
+          "value": 70
+        },
+        "emotional_control": {
+          "description": "Ability to manage emotions during discussions",
+          "value": 70
+        },
+        "analytical_thinking": {
+          "description": "Tendency to evaluate information logically",
+          "value": 90
+        },
+        "risk_tolerance": {
+          "description": "Willingness to take bold actions and make risky decisions",
+          "value": 70
+        }
+      }
+    },
+    "YA": {
+      "name": "YA",
+      "gender": "male",
+      "age_apparent": 23,
+      "age_actual": 26,
+      "species": "human",
+      "appearance": {
+        "general": {
+          "description": "looks firm, influential, handsome and proud",
+          "value": 80
+        }
+      },
+      "personality": {
+        "assertiveness": {
+          "description": "Willingness to express opinions and influence others",
+          "value": 80
+        },
+        "analytical-thinking": {
+          "description": "Ability to evaluate information and make informed decisions",
+          "value": 70
+        },
+        "risk-tolerance": {
+          "description": "Willingness to take bold actions and face uncertainty",
+          "value": 70
+        },
+        "emotional-intelligence": {
+          "description": "Ability to understand and manage the emotions of self and others",
+          "value": 70
+        }
+      }
+    }
+  }
+}

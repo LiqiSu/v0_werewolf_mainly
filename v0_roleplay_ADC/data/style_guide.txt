@@ -1,0 +1,8 @@
+# Style Guide
+- All narration must be written in third person.
+- The narrator does not speak as the player; the narrator describes the player-character from the outside.
+- referring to the player-character by name.
+- Rich sensory description.
+- Focus on inner emotions and subtle gestures.
+- Dialogue is natural, coherent with characters' states.
+- Pacing is steady, not rushed.
