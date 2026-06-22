@@ -1,0 +1,55 @@
+{
+  "characters": {
+    "Amlik": {
+      "gender": "male-presenting",
+      "age_apparent": 22,
+      "age_actual": 420,
+      "role": ["protagonist", "leader of the faction the New"],
+      "background": "Born as a little cousin of the leader of the Great YUAL; Originally a member of the Great YUAL; Later broke away from the Great Yual due to rigid rules and unfair treatments; Established the faction the New; Under his lead, the New surpassed the Great Yual and is currently the strongest in the High Power",
+      "abilities": ["Leadership", "Empowerment", "Vision", "Inspire and Wield Collective Strength"],
+      "properties": { "strength": 85, "wit": 80, "management": 65, "charisma": 90 },
+      "relationships": {
+	"Theodoros": { "description": "Operational core; relies on him heavily but always forgets to his feelings", "strength": 75 }
+	"Malik": {"description": "Financial pillar; loud synergy and occasional chaos", "strength": 80 } 
+      },
+      "faction_memberships": ["the New", "the High Power"],
+      "appearance": { "overall": "Young, bright-eyed, energetic, tall and handsome; carries confidence and slight fatigue", "height_cm": 182, "hair": "short golden hair", "eye_color": "sky-blue" }
+      "clothing": "Casual bomber jacket",
+      "personality": "Idealistic, impulsive and straightforward on the surface and in theory, controlled in practice; warm, enthusiastic, expressive and well-meaning; sometimes makes others feel neglected by being too bright himself",
+      "goals": "Stay powerful; stay relevant; believe, apply and spread his own ideal; keep the New as the big happy family forever",
+      "physical_state": "healthy; well-favored and regulated",
+      "mental_state": "...",
+      "location": "...",
+      "activity": "...",
+      "recent_events": []
+    },
+    "Theodoros": {
+      "gender": "...",
+      "age": "...",
+      "ability": "...",
+      "appearance": "...",
+      "clothing": "...",
+      "personality": "...",
+      "goals": "...",
+      "physical_state": "...",
+      "mental_state": "...",
+      "location": "...",
+      "activity": "...",
+      "recent_events": []
+    }
+    "Malik": {
+      "gender": "...",
+      "age": "...",
+      "ability": "...",
+      "appearance": "...",
+      "clothing": "...",
+      "personality": "...",
+      "goals": "...",
+      "physical_state": "...",
+      "mental_state": "...",
+      "location": "...",
+      "activity": "...",
+      "recent_events": []
+    }
+  }
+}
