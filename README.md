@@ -1,4 +1,4 @@
-Archive
+Archive.
 
 First Attempt at multi-agent llm simulation. the Werewolf project became the focus (others are sketchy).
 
